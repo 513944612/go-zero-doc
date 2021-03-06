@@ -53,6 +53,7 @@ error: config file etc/user-api.yaml, error: type mismatch for field xx
 ```
 
 请确认`user-api.yaml`配置文件中配置项是否已经配置，如果有值，检查一下yaml配置文件是否符合yaml格式。
+redis密码太过简单(如123456)也可能引起该错误
 
 ## goctl找不到
 ```
